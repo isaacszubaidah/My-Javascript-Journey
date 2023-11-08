@@ -18,13 +18,13 @@ function randtoPound(rand){
     let roundedPound = pound.toFixed(2)
     console.log(`R1000 is ${roundedPound} Pounds`)
 }
+VAT(400)
 function VAT(j){
   let vat=j*1.15
   let roundedVat = vat.toFixed(2)
     console.log(`The amount after tax is ${roundedVat}`);
 }
 
-VAT(400)
 
 let firstNum = 8;
 let secondNum = 20;
