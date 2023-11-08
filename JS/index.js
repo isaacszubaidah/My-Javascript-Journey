@@ -1,18 +1,21 @@
+// task2
+let integer = 1
+let arrayItems = [1,2.5,'Zubaidah'];
+let string = "Zubaidah"
+const object = {name:'John',age:'20'}
 
-let language = "JavaScript";
+console.log(integer)
+console.log(arrayItems);
+console.log(string)
+console.log(object)
 
-let score = 10;
+console.log (typeof integer)
+console.log (typeof arrayItems)
+console.log (typeof string)
+console.log (typeof object)
 
-let length = 10;
+let number = null;
+console.log(number)
 
-let width = 5;
-
-let areaRect = length*width;
-
-console.log(`The area of  rectangle is`.concat (areaRect));
-
-let num1 = 10;
-
-let num2 = 4;
-
-console.log(`${num1} / ${num2} = ${~~(num1/num2)} remainder ${num1%num2}`);
+let person;
+console.log(person)
