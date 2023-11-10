@@ -1,3 +1,28 @@
+
+// task2
+let integer = 1
+let arrayItems = [1,2.5,'Zubaidah'];
+let string = "Zubaidah"
+const object = {name:'John',age:'20'}
+
+console.log(integer)
+console.log(arrayItems);
+console.log(string)
+console.log(object)
+
+console.log (typeof integer)
+console.log (typeof arrayItems)
+console.log (typeof string)
+console.log (typeof object)
+
+let number = null;
+console.log(number)
+
+let person;
+console.log(person)
+
+// message
+
 // task 3
 randtoDollar(1000)
 function randtoDollar(rand){
@@ -77,4 +102,5 @@ console.log(`${num1} / ${num2} = ${~~(num1/num2)} remainder ${num1%num2}`);
         console.log(`${a},${b},${c} in descending order is ${b},${c},${a}` )
 
 }
+
 
