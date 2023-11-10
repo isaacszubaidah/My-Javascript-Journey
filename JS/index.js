@@ -73,3 +73,30 @@ function sort(a,b,c){
         console.log(`${a},${b},${c} in descending order is ${b},${c},${a}` )
 
 }
+
+// array
+let array = ['matthew','seth','niyaaz','darren','jason']
+console.log(array)
+
+let age = 16
+
+if(age>=18){
+    console.log('You qaulify for a driver\s lisence');
+
+}
+else if(age>=16){
+    console.log('You qaulify for driver\s learners');
+
+}
+else{
+    console.log('You are not old enough for driver\s lisence');
+
+};
+// DOM Manipulation
+// You qaulify for drivers learners
+// document.getElementsByClassName('para')[1].innerText+='Extra'
+// 'This is the second paragraphExtra'
+// document.getElementsByTagName('p')[0].innerText+='Some extra text'
+// 'This is the first paragaraphSome extra text'
+// document.querySelector('.para').innerHTML = '<strong>This is first para</strong>'
+// '<strong>This is first para</strong>'
