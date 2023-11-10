@@ -54,6 +54,10 @@ function sort(a,b,c){
     if(a>b && b>c ){
         console.log(`${a},${b},${c} in descending order`)
 
+
+console.log(`${num1} / ${num2} = ${~~(num1/num2)} remainder ${num1%num2}`);
+
+// Hello my name is..
     }
         else if((c>b && b>a))
         console.log(`${a},${b},${c} in descending order is ${c},${b},${a}` )
@@ -73,3 +77,4 @@ function sort(a,b,c){
         console.log(`${a},${b},${c} in descending order is ${b},${c},${a}` )
 
 }
+
